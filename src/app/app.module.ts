@@ -10,6 +10,7 @@ import { SworkComponent } from './components/swork/swork.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { IndividualBlogComponent } from './components/individual-blog/individual-blog.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { IndividualBlogComponent } from './components/individual-blog/individual
     SworkComponent,
     BlogComponent,
     ContactComponent,
-    IndividualBlogComponent  ],
+    IndividualBlogComponent,
+    HeaderComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule
